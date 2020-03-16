@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <application name="info.nightscout.AndroidAPS.Tizen.Wearable">
+    <serviceProfile id="/sample/hello" name="AndroidAPS_Companion"
+			role="consumer" version="1.0">
+      <supportedTransports>
+        <transport type="TRANSPORT_BT" />
+        <transport type="TRANSPORT_WIFI" />
+      </supportedTransports>
+      <serviceChannel id="104" dataRate="low" priority="low"
+				reliability="enable">
+      </serviceChannel>
+    </serviceProfile>
+  </application>
+</resources>

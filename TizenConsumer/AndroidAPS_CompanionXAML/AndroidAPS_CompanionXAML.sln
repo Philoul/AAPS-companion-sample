@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidAPS_CompanionXAML", "AndroidAPS_CompanionXAML\AndroidAPS_CompanionXAML\AndroidAPS_CompanionXAML.csproj", "{7FED0E99-4031-420D-9815-D8C7C0161827}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidAPS_CompanionXAML.Tizen.Wearable", "AndroidAPS_CompanionXAML\AndroidAPS_CompanionXAML.Tizen.Wearable\AndroidAPS_CompanionXAML.Tizen.Wearable.csproj", "{26CF17C8-4C44-42BB-B0BB-40F8E6371638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FED0E99-4031-420D-9815-D8C7C0161827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FED0E99-4031-420D-9815-D8C7C0161827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FED0E99-4031-420D-9815-D8C7C0161827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FED0E99-4031-420D-9815-D8C7C0161827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CF17C8-4C44-42BB-B0BB-40F8E6371638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CF17C8-4C44-42BB-B0BB-40F8E6371638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CF17C8-4C44-42BB-B0BB-40F8E6371638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CF17C8-4C44-42BB-B0BB-40F8E6371638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58BC8753-134C-4DF5-9B39-42C73A281A60}
+	EndGlobalSection
+EndGlobal

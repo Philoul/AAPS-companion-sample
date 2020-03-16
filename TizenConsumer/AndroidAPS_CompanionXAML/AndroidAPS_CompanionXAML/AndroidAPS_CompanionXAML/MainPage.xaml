@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cui:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+				xmlns:cui="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+				x:Class="AndroidAPS_CompanionXAML.MainPage">
+    <cui:CirclePage.Content>
+        <cui:CircleStackLayout>
+            <Label
+                FontSize="Header"
+                TextColor="White"
+                Text="Current BG Level"/>
+            <Label
+                FontSize="Small"
+                TextColor="White"
+                Text="{Binding BgValue, StringFormat='BG: {0:N}'}"/>
+            <Label
+                FontSize="Body"
+                TextColor="White"
+                Text="{Binding ReceivedMessage}"
+                HorizontalOptions="CenterAndExpand"
+                LineBreakMode="WordWrap"/>
+            <Button
+                Command="{Binding ConnectCommand}"
+                FontSize="Medium"
+                TextColor="Aqua"
+                Text="Connect"/>
+        </cui:CircleStackLayout>
+    </cui:CirclePage.Content>
+</cui:CirclePage>
